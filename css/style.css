@@ -17,14 +17,14 @@ li{
     padding: 0 15px;
 }
 body{
-    font-family: 'PT Serif', serif;
+    font-family: 'Comfortaa', cursive;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     color: #5e5e5e;
 }
 .header{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 .header__top{
     background-color: #33251b;
@@ -58,12 +58,15 @@ body{
     letter-spacing: 0.25px;
     line-height: 45px;
     position: relative;
+    font-family: 'Comfortaa', cursive;
 }
-.header__logo a{
+.header__logo{
+    padding-bottom: 23px;
     text-align: center;
+    vertical-align: middle;
     color: #33251b;
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
 }
 .header__phone{
     padding-left: 20px;
@@ -96,14 +99,16 @@ body{
     margin-right: 5px;
 }
 .header__content{
+    text-align: center;
     padding: 34px 0px 23px;
 }
 .header__content-inner{
-    display: flex;
-    justify-content: space-between;
+    /*padding-bottom: 16px;*/
 }
 .menu li{
+    /*padding-bottom: 16px;*/
     display: inline-block;
+    font-family: 'Comfortaa', cursive;
 }
 .menu a{
     color: #323232;
@@ -112,6 +117,7 @@ body{
     border: 1px solid transparent;
     padding: 0px 16px;
     transition: all .3s;
+    font-family: 'Comfortaa', cursive;
 }
 .menu a:hover{
     border-color: #ffc222;
@@ -143,22 +149,26 @@ body{
     font-weight: 500;
     letter-spacing: 1.5px;
     margin-bottom: 22px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 .slider__text{
     line-height: 24px;
     font-size: 18px;
     color: #d3d2d2;
     margin-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
 }
 .default-btn{
+    /*bottom: -2px;*/
+    padding-top: 6px;
+    margin-top: 3px;
     display: inline-block;
     font-size: 14px;
     line-height: 24px;
     color: #fff;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    padding: 8px 30px 8px 24px;
+    font-family: 'Comfortaa', cursive;
+    padding: 7px 30px 7px 24px;
     border: 1px solid #ffc222;
     border-right-width: 20px;
     position: relative;
@@ -261,12 +271,13 @@ body{
     font-weight: 500;
     line-height: 24px;
     color: #212020;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     margin-bottom: 10px;
 }
 .services__text,
 .form__text,
 .news__title{
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 0.1px;
 }
 .services_btn a,
@@ -311,12 +322,13 @@ body{
     font-size: 18px;
     line-height: 24px;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     padding: 24px 0;
 }
 .services_item-text{
     letter-spacing: 0.1px;
     padding: 0px 30px 30px;
+    font-family: 'Raleway', sans-serif;
 }
 .services_item-btn{
     position: absolute;
@@ -333,7 +345,7 @@ body{
 .services_item-link{
     color: #050505;
     border-bottom: 1px solid #050505;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     margin-right: 60px;
 }
 /*тень. выдеяшь ее в фотошопе. и выбираешь копировать css. нужен только box-shadow*/
@@ -350,18 +362,20 @@ body{
     /*background: rgba(0, 0, 0, 0.5);*/
 }
 .about__title{
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 35px;
     padding: 200px 0px 25px;
     line-height: 24px;
     color: #fff;
     font-weight: 500;
 }
 .about__text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
     margin-bottom: 30px;
     letter-spacing: 0.1px;
     line-height: 24px;
-    color: #d3d2d2;
+    color: white;
 }
 .about__btn.default-btn:after{
     color: black;
@@ -378,11 +392,12 @@ body{
     position: relative;
 }
 .form_inner img{
+    vertical-align: central;
     position: absolute;
     width: 450px;
     height: 450px;
     right: -230px;
-    bottom: 45px
+    bottom: 12px;
 }
 .form_box{
     max-width: 850px;
@@ -436,6 +451,10 @@ body{
 .form_box-inner .jq-selectbox.jqselect{
     display: block;
     width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+option{
+    font-family: 'Raleway', sans-serif;
 }
 .form_box-inner textarea{
     outline: none;
@@ -486,22 +505,23 @@ body{
     font-size: 32px;
     margin-bottom: 20px;
     margin-top: 40px;
-    font-family: 'Yeseva One', cursive, sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 .text4{
     color: white;
     font-size: 20px;
-    font-family: 'Yeseva One', cursive, sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 .text41{
     color: white;
     font-size: 20px;
-    font-family: 'Yeseva One', cursive, sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 .textp4{
     color: #d3d2d2;
     font-size: 16px;
     padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 .menuLeft .menuCenter .menuRight{
     margin-right: 130px;
@@ -526,19 +546,6 @@ body{
     padding: 0;
     text-align: center;
 }
-/*#gallery {position:relative; max-width:786px; margin:40px auto; padding:10px; border:6px solid #fff; background:#AAA}*/
-/*#images {border:2px solid #9ac1c9; height:225px; background:#eef5f6; margin-bottom:20px}*/
-/*#image {position:relative; width:672px; height:375px; padding:5px; border:2px solid #666; background:#FFF url(images/loading.gif) center center no-repeat}*/
-/*#image img {position:absolute; top:5px; left:5px}*/
-/*#thumbwrapper {margin-top:10px; padding:5px 0; width:682px; height:100px; border:2px solid #666; background:#FFF}*/
-/*#thumbarea {position:relative; overflow:hidden; height:100px; width:682px; }*/
-/*#thumbs {position:absolute; list-style:none; margin-left:5px; height:100px; width:10000px; border-right:5px solid #FFF}*/
-/*#thumbs li {float:left; margin-right:5px; cursor:pointer}*/
-/*.imgnav {position:absolute; height:375px; width:20%; z-index:100; height:375px; width:20%; z-index:100; outline:none; cursor:pointer}*/
-/*#previmg {left:0; background:url(images/left.gif) left center no-repeat; border-left:5px solid #FFF}*/
-/*#previmg:hover {opacity:1; filter:alpha(opacity=100)}*/
-/*#nextimg {right:0; background:url(images/right.gif) right center no-repeat; border-right:5px solid #FFF}*/
-/*#nextimg:hover {opacity:1; filter:alpha(opacity=100)}*/
 .gallery{
     margin-top: 45px;
     margin-bottom: 45px;
@@ -551,12 +558,6 @@ body{
     transform: scale(1.1);
     transition: 0.5s;
 }
-/*.galleryUp{*/
-/*    text-align: center;*/
-/*}*/
-/*.galleryDown{*/
-/*    text-align: center;*/
-/*}*/
 .footer__content{
     /*background-color: #595959;*/
     padding: 20px 0px 30px;
@@ -579,7 +580,7 @@ body{
     width: 100%;
 }
 .footer__title{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -594,10 +595,11 @@ body{
     letter-spacing: 0.25px;
     color: #fff;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 .footer__info{
-    max-width: 360px;
+    max-width: 388px;
+    text-align: center;
 }
 .footer__list{
     padding-top: 10px;
@@ -611,7 +613,7 @@ body{
     letter-spacing: 0.25px;
     color: #fff;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     padding-left: 33px;
     position: relative;
 }
@@ -637,7 +639,7 @@ body{
     line-height: 24px;
     padding: 8px 0;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 .copy__text{
     font-size: 17px;
@@ -653,7 +655,7 @@ body{
     height: 40px;
     border: 1px solid #e6e6e6;
     padding: 0px 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-weight: 400;
 }
 #modal input[type="submit"]{

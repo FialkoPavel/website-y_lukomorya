@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Website</title>
+   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Neucha|Pacifico&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Amarante|Domine&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="css/normalize.css">
@@ -23,17 +26,15 @@
                         <a class="header__phone" href="tel:380963092145">+375 29 342 75 58</a>
                         <a class="header__email" href="mailto:t.fialko@mail.ru">t.fialko@mail.ru</a>
                         <a class="header__instagram" href="https://www.instagram.com/y_lukomorya/" target="_blank" ><i class="fab fa-instagram"></i>#y_lukomorya</a>
-                        <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Связаться с нами</a>
+                        <a data-fancybox data-src="#modal" href="javascript:" class="header__btn" href="#">Связаться с нами</a>
                   </div>
             </div>
       </div>
       <div class="header__content">
             <div class="container">
                   <div class="header__content-inner">
-                        <div class="header__logo flipInX animated infinite delay-10s">
-                              <a href="">
+                        <div class="header__logo">
                                    Кафе "У  ЛУКОМОРЬЯ"
-                              </a>
                         </div>
                         <nav class="menu">
                               <ul>
@@ -168,7 +169,7 @@
        <div class="about__text">
              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
        </div>
-            <a href="#" class="about__btn default-btn">
+            <a data-fancybox data-src="#modal" href="javascript:;"  class="about__btn default-btn">
                  Связаться с нами
             </a>
             </div>
@@ -347,7 +348,7 @@
                                                 Сообщение
                                                 <textarea id="form_message"></textarea>
                                           </label>
-                                          <button class="default-btn" type="submit" onclick="onSubmit(); return false">Связаться с нами</button>
+                                          <button class="default-btn" type="submit" onclick="onSubmit(); return false">Отправить вопрос</button>
                                     </div>
                               </div>
                         </form>
@@ -371,7 +372,7 @@
                                     <br>Пн-Вт 9.00 - 21.00
                                     <br>Пт-Сб 9.00 - 1.00
                               </div>
-                              <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">
+                              <a data-fancybox data-src="#modal" href="javascript:" class="header__btn">
                                    Связаться с нами
                               </a>
                               <ul class="footer__list">
@@ -382,7 +383,7 @@
                         </div>
                         <div class="footer__map">
 <!--                              <iframe height="250px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.124391996489!2d30.364922015731644!3d50.457408279476354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc919501b4ef%3A0x71a476f68f4c8246!2z0YPQuy4g0KTQtdC-0LTQvtGA0Ysg0J_Rg9GI0LjQvdC-0LksIDEzLCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1555013165886!5m2!1sru!2sua" frameborder="0" style="border:0" allowfullscreen></iframe>-->
-                              <iframe height="250px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2343.9768295996096!2d26.401659615545814!3d54.02093468012592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dc02e29fac69b7%3A0x9aa6de64bd798be4!2z0JrQsNGE0LUgItCjINCb0YPQutC-0LzQvtGA0YzRjyI7IENhZmUgIlUgTHVrb21vcnlhIg!5e0!3m2!1sru!2sil!4v1576428553481!5m2!1sru!2sil"  frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                                  <iframe height="250px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2343.9768295996096!2d26.401659615545814!3d54.02093468012592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dc02e29fac69b7%3A0x9aa6de64bd798be4!2z0JrQsNGE0LUgItCjINCb0YPQutC-0LzQvtGA0YzRjyI7IENhZmUgIlUgTHVrb21vcnlhIg!5e0!3m2!1sru!2sil!4v1576428553481!5m2!1sru!2sil"  frameborder="0" style="border:0" allowfullscreen=""></iframe>
                         </div>
                   </div>
             </div>
@@ -397,9 +398,9 @@
 </footer>
 <div id="modal">
       <form>
-            <input type="text" placeholder="Ваше имя">
-            <input type="text" placeholder="Ваш телефон">
-            <input type="submit" value="Отправить">
+            <input type="text" placeholder="Ваше имя" id="send_name">
+            <input type="text" placeholder="Ваш телефон" id="send_tel">
+            <input type="submit" value="Отправить" id="send">
       </form>
 </div>
 
@@ -413,6 +414,34 @@
 
 </script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<script>
+    const send = document.getElementById('send');
+    let modal = document.getElementById('modal');
+
+    send.addEventListener('click', function () {
+        const name = document.getElementById('send_name').value;
+        const phone = document.getElementById('send_tel').value;
+
+
+        const url = 'https://api.telegram.org/bot',
+            token  = "1060815359:AAHcq2js6yhmla6DtwEYUq9f7LitraTjlYI",
+            chat_id =  "-395709749",
+            messageURL = '/sendMessage?chat_id=',
+            text = '&message&text=',
+            name_send = `Имя:%20${name}`,
+            phone_send = `Номер%20телефона:%20${phone}`;
+        axios.post(`${url}${token}${messageURL}${chat_id}${text}${name_send}%0A${phone_send}`)
+            .then(() => {
+                modal.style.display = 'none';
+                swal("Спасибо!", "Мы обязательно свяжемся с Вами!", "success");
+            })
+            .catch( () => {
+                swal("К сожалению, произошла ошибка!", "Попробуйте еще раз или свяжитесь с нами по телефону +37529 3427558");
+            });
+    })
+</script>
+
 <script>
   function onSubmit() {
       const email = document.getElementById('form_email').value;
@@ -431,16 +460,17 @@
           theme_send = `Тема:%20${theme}`,
           phone_send = `Номер%20телефона:%20${phone}`,
           message_send = message.length === 0 ? '' : `Сообщение:%20${message}`;
-            let send = 'bla';
         axios.post(`${url}${token}${messageURL}${chat_id}${text}${name_send}%0A${email_send}%0A${theme_send}%0A${phone_send}%0A${message_send}`)
           .then(() => {
-              console.log('send');
+              swal("Спасибо!", "Мы обязательно свяжемся с Вами!", "success");
           })
           .catch( () => {
-              console.log('false');
+              swal("К сожалению, произошла ошибка!", "Попробуйте еще раз или свяжитесь с нами по телефону +37529 3427558");
           });
   }
 </script>
+<script src="js/sweetalert.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script type="text/javascript" src="slide.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
