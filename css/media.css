@@ -6,36 +6,29 @@
         padding: 20px 0 20px 0;
     }
 }
-@media (max-width: 1740px){
-    .form_inner img{
+@media (max-width: 1740px) {
+    .form_inner img {
         vertical-align: central;
         right: -74px;
         height: 370px;
         width: 370px;
     }
 }
-@media (max-width: 1700px){
-    .menu img{
+@media (max-width: 1380px){
+
+    .menuRight{
         display: none;
     }
-}
-
-@media (max-width: 1380px){
-    .menu{
-        margin: 0 auto;
-        text-align: center;
-        padding: 20px 0 20px 0;
-    }
 
 }
-@media (max-width: 1290px){
-    .textp4{
-       display: none;
-    }
-    .blmenu{
-        width: 350px;
-    }
-}
+/*@media (max-width: 1290px){*/
+/*    !*.textp4{*!*/
+/*    !*   display: none;*!*/
+/*    !*}*!*/
+/*    !*.blmenu{*!*/
+/*    !*    width: 350px;*!*/
+/*    !*}*!*/
+/*}*/
 @media (max-width: 1213px){
     .container1 img{
         width: 580px;
@@ -189,27 +182,27 @@
     .header__btn-menu{
         display: block;
     }
-    .menu ul{
-        display: none;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin-top: 20px;
-        z-index: 50;
-    }
-    .menu li{
-        display: block;
-        text-align: center;
-    }
-    .menu a{
-        display: block;
-        background-color: #ffc222;
-        border-top: 1px solid #fff;
-        border-bottom: 1px solid #fff;
-    }
-    .menu li + li{
-        padding-left: 0;
-    }
+    /*.menu ul{*/
+    /*    display: none;*/
+    /*    position: absolute;*/
+    /*    left: 0;*/
+    /*    right: 0;*/
+    /*    margin-top: 20px;*/
+    /*    z-index: 50;*/
+    /*}*/
+    /*.menu li{*/
+    /*    display: block;*/
+    /*    text-align: center;*/
+    /*}*/
+    /*.menu a{*/
+    /*    display: block;*/
+    /*    background-color: #ffc222;*/
+    /*    border-top: 1px solid #fff;*/
+    /*    border-bottom: 1px solid #fff;*/
+    /*}*/
+    /*.menu li + li{*/
+    /*    padding-left: 0;*/
+    /*}*/
     .about__title{
         font-size: 30px;
     }
@@ -228,6 +221,10 @@
     }
     .about__text{
         font-size: 18px;
+    }
+    .containerMenu{
+        display: table;
+
     }
 }
 @media (max-width: 540px){
@@ -277,9 +274,6 @@
         padding-right: 30px;
     }
 }
-
-
-
 @media (min-width: 700px){
     .menu ul{
         display: block !important;
